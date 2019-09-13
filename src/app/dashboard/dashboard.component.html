@@ -1,0 +1,8 @@
+<div>
+<h3>Custom Hog Cycle Deck</h3>
+  <a *ngFor="let card of cards"
+    routerLink="/detail/{{card.id}}">
+      <h4>{{card.cardName}}</h4>
+  
+  </a>
+</div>

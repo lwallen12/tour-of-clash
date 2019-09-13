@@ -1,0 +1,45 @@
+a {
+    text-transform: uppercase;
+    text-align: center;
+
+    color: white;
+    background-color: red;
+    margin-left: 0;
+    padding: 1.5em;
+    border: black;
+    border-style: solid;
+    width: 100%;
+    display: block;
+
+
+    
+    
+}
+
+a:visited {
+    text-decoration: none;
+  }
+
+a:hover {
+    background-color: coral;
+}
+
+nav {
+    width: 300px;
+    border-right-color: black;
+    border-right-style: solid;
+
+    height: 100%;
+    padding-top: 0px;
+    padding-bottom:0px;
+}
+
+
+#nav-container {
+    height: 1000px;
+}
+
+
+html, body, #wrapper, div#main {
+    height: 100%;
+}

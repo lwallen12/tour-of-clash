@@ -1,0 +1,11 @@
+<h2>My Cards</h2>
+<ul>
+  <li *ngFor="let card of cards">
+    <a routerLink="/detail/{{card.id}}">
+    <span>{{card.id}}</span> {{card.cardName}}
+  </a>
+  </li>
+</ul>
+
+
+

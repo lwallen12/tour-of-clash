@@ -1,0 +1,22 @@
+
+<div *ngIf="card">
+
+  <h2>{{card.cardName | uppercase}} Details</h2>
+  <div><span>id: </span>{{card.id}}</div>
+  <div><span>Clash id: </span>{{card.cardId}}</div>
+  <div><span>Elixir: </span>{{card.elixir}}</div>
+  <div><span>Type: </span>{{card.cardType}}</div>
+  <div><span>Travels: </span>{{card.travels}}</div>
+  <div><span>Targets: </span>{{card.targets}}</div>
+  <div><span>Attacks Air: </span>{{card.attackAir}}</div>
+  <div><span>Spawner: </span>{{card.spawner}}</div>
+  <div><span>Range Level: </span>{{card.rangeLevel}}</div>
+
+  
+  <div>
+    <label>name:
+      <input [(ngModel)]="card.cardName" placeholder="name"/>
+    </label>
+  </div>
+  <button (click)="goBack()">go back</button>
+</div>
